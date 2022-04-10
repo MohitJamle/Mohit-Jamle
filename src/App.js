@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import "./App.css";
+import Body from "./components/Body";
+import Nav from "./components/Nav";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 
 function App() {
+  const [show, setShow] = useState(true);
+
+  useEffect(() => {
+    if (window.innerWidth <= 1512) {
+      setShow(false);
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {show && <Nav show={show} />}
+
+      <div
+        className="app_menu"
+        onClick={() => setShow(!show)}
+        style={{
+          left: show && "200px",
+        }}
+      >
+        {show ? <CloseIcon /> : <MenuIcon className="app_menuIcon" />}
+      </div>
+      <Body onClick={() => setShow(false)} />
     </div>
   );
 }
 
 export default App;
+
+// React Revel
+// React Spring

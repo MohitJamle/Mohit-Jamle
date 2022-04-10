@@ -1,0 +1,137 @@
+.ab {
+  position: relative;
+}
+.ab_title {
+  color: #ffb400;
+  position: absolute;
+  top: -60px;
+  left: 40vw;
+  margin: auto;
+  width: 300px;
+  font-size: 50px;
+  margin-top: 40px;
+  font-weight: 900;
+}
+
+.about {
+  margin-top: 80px;
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about_Pic {
+  position: relative;
+  overflow: visible;
+  height: 500px;
+  width: 500px;
+  min-width: 330px;
+  min-height: 400px;
+  padding: 0 10px;
+  border: 15px solid #ffb400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_Pic img {
+  position: absolute;
+  width: 450px;
+  height: 100%;
+  object-fit: contain;
+  bottom: 0;
+}
+
+.about_cv {
+  max-width: 460px;
+  padding: 0px 80px;
+}
+
+.about_cv h1 {
+  margin: 15px 0px;
+}
+
+.about_cv p {
+  margin: 15px 0;
+  line-height: 23px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.about_intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_coloum {
+  display: flex;
+  margin: 15px 0;
+}
+
+.about_intro strong {
+  width: 120px;
+  margin-right: 40px;
+}
+
+.about_download {
+  padding: 15px 25px;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: #ffb400;
+  color: white;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  font-size: 13px;
+  border: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.about_download:hover {
+  background-color: #ffefcb;
+  color: black;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 940px) {
+  .ab_title {
+    left: 10vw;
+    top: 25px;
+  }
+
+  .about {
+    padding: 10px 0px;
+    flex-direction: column;
+  }
+  .about_Pic {
+    border: none;
+  }
+
+  .about_Pic img {
+    width: 300px;
+    left: 50vw;
+  }
+
+  .about_cv {
+    width: 95vw;
+    min-width: 95vw;
+    padding: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 606px) {
+  .ab_title {
+    font-size: 40px;
+    left: 5vw;
+  }
+  .about_Pic img {
+    left: 35vw;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .ab_title {
+    font-size: 35px;
+  }
+}

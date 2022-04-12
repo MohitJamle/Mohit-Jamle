@@ -4,6 +4,7 @@
   display: flex;
   position: relative;
   height: 100vh;
+  max-height: 800px;
 }
 
 .home_caption {
@@ -103,5 +104,35 @@
   .home_imageImg {
     top: 60px;
     right: 0px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .home {
+    width: 1500px;
+    margin: auto;
+    height: 800px;
+  }
+
+  .home_caption {
+    width: 500px;
+    padding: 80px 100px;
+    margin-top: 150px;
+    z-index: 1;
+  }
+
+  .home_caption h2 {
+    font-size: 40px;
+  }
+
+  .home_caption h1 {
+    padding: 15px 0;
+    font-size: 70px;
+    width: 700px;
+  }
+
+  .home_caption p {
+    font-size: 1rem;
+    line-height: 26px;
   }
 }

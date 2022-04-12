@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../Pages/About";
-// import Contact from "../Pages/Contact";
+import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
 import Projects from "../Pages/Projects";
 import Resume from "../Pages/Resume";
@@ -15,7 +15,7 @@ const Body = ({ onClick }) => {
       <About />
       <Resume />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 };

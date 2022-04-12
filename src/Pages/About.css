@@ -14,10 +14,12 @@
 }
 
 .about {
-  margin-top: 80px;
+  max-width: 1400px;
+  margin: auto;
   padding: 80px 100px;
   display: flex;
   flex-direction: row;
+  margin-top: 80px;
 }
 
 .about_Pic {

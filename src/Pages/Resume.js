@@ -20,7 +20,7 @@ const Resume = () => {
 
       <div className="arrow">&#8595;</div>
       <div className="resume_box">
-        <h4 className="date">2021-2025</h4>
+        <h4 className="date">2021-2024</h4>
         <h2>My Graduation</h2>
         <p>Currently I am doing My Graduation</p>
         <h4>From DAVV , indore(M.P)</h4>

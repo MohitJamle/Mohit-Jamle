@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .contact_form {
@@ -54,12 +54,18 @@
   background-color: #ffb300;
   color: white;
   cursor: pointer;
-  margin: 50px auto 50px;
+  margin: 30px auto 80px;
 }
 
 @media only screen and (max-width: 670px) {
   .inputs {
     flex-direction: column;
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .contact_form button {
+    margin-bottom: 13px;
   }
 }

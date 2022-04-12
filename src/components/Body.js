@@ -10,7 +10,7 @@ const Body = ({ onClick }) => {
   const hide = window.innerWidth;
 
   return (
-    <div className="body" onClick={hide >= 1513 ? () => {} : onClick}>
+    <div id="view" className="body" onClick={hide >= 1513 ? () => {} : onClick}>
       <Home />
       <About />
       <Resume />

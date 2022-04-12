@@ -4,6 +4,7 @@ import Body from "./components/Body";
 import Nav from "./components/Nav";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -27,7 +28,11 @@ function App() {
       >
         {show ? <CloseIcon /> : <MenuIcon className="app_menuIcon" />}
       </div>
-      <Body onClick={() => setShow(false)} />
+
+      <Routes>
+        <Route path="/" element={<Body onClick={() => setShow(false)} />} />
+        <Route path="/*" element={<Body onClick={() => setShow(false)} />} />
+      </Routes>
     </div>
   );
 }

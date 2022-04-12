@@ -15,9 +15,15 @@ function App() {
     }
   }, []);
 
+  const click = () => {
+    if (window.innerWidth <= 1512) {
+      setShow(false);
+    }
+  };
+
   return (
     <div className="app">
-      {show && <Nav show={show} />}
+      {show && <Nav show={show} click={click} />}
 
       <div
         className="app_menu"

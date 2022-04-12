@@ -1,11 +1,13 @@
 import "./Nav.css";
 
-const Nav = ({ show }) => {
+const Nav = ({ show, click }) => {
   const Home = () => {
     document.getElementById("view").scrollTo({ top: 0, behavior: "smooth" });
+    click();
   };
   const About = () => {
     document.getElementById("view").scrollTo({ top: 790, behavior: "smooth" });
+    click();
   };
   const Resume = () => {
     if (window.innerWidth > 940) {
@@ -25,6 +27,7 @@ const Nav = ({ show }) => {
         .getElementById("view")
         .scrollTo({ top: 2100, behavior: "smooth" });
     }
+    click();
   };
   const Project = () => {
     if (window.innerWidth > 1000) {
@@ -52,6 +55,7 @@ const Nav = ({ show }) => {
         .getElementById("view")
         .scrollTo({ top: 3200, behavior: "smooth" });
     }
+    click();
   };
   const Contact = () => {
     if (window.innerWidth > 670) {
@@ -87,6 +91,7 @@ const Nav = ({ show }) => {
         .getElementById("view")
         .scrollTo({ top: 8670, behavior: "smooth" });
     }
+    click();
   };
 
   return (

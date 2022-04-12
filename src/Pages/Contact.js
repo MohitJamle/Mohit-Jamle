@@ -13,15 +13,15 @@ const Contact = () => {
 
     // console.log(event.target);
 
-    // emailjs
-    //   .sendForm(
-    //     "service_8fitjgj",
-    //     "template_exqjahr",
-    //     event.target,
-    //     "l3IE4446-Zjbr8VyL"
-    //   )
-    //   .then((res) => console.log(res))
-    //   .catch((error) => console.log(error));
+    emailjs
+      .sendForm(
+        "service_8fitjgj",
+        "template_exqjahr",
+        event.target,
+        "l3IE4446-Zjbr8VyL"
+      )
+      .then((res) => console.log(res))
+      .catch((error) => console.log(error));
 
     setName("");
     setEmail("");

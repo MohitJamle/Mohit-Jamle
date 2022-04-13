@@ -25,7 +25,7 @@ const Nav = ({ show, click }) => {
     } else {
       document
         .getElementById("view")
-        .scrollTo({ top: 2100, behavior: "smooth" });
+        .scrollTo({ top: 2000, behavior: "smooth" });
     }
     click();
   };
@@ -37,23 +37,23 @@ const Nav = ({ show, click }) => {
     } else if (window.innerWidth > 940) {
       document
         .getElementById("view")
-        .scrollTo({ top: 2700, behavior: "smooth" });
-    } else if (window.innerWidth > 565) {
+        .scrollTo({ top: 2600, behavior: "smooth" });
+    } else if (window.innerWidth > 698) {
+      document
+        .getElementById("view")
+        .scrollTo({ top: 2770, behavior: "smooth" });
+    } else if (window.innerWidth > 485) {
       document
         .getElementById("view")
         .scrollTo({ top: 2870, behavior: "smooth" });
-    } else if (window.innerWidth > 454) {
-      document
-        .getElementById("view")
-        .scrollTo({ top: 3000, behavior: "smooth" });
     } else if (window.innerWidth > 380) {
       document
         .getElementById("view")
-        .scrollTo({ top: 3100, behavior: "smooth" });
+        .scrollTo({ top: 3000, behavior: "smooth" });
     } else {
       document
         .getElementById("view")
-        .scrollTo({ top: 3200, behavior: "smooth" });
+        .scrollTo({ top: 3100, behavior: "smooth" });
     }
     click();
   };

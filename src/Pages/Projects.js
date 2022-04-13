@@ -85,16 +85,6 @@ const Projects = () => {
       description:
         "This is WhatsApp-web clone I build this because i want to know how google athentication works and this website never reveals user's orignal info I focus mainly on this point.",
     },
-    {
-      fade: "right",
-      id: "p9",
-      image: "/images/Mohit.png",
-      title: "My Personal Portfolio Website",
-      date: "October 12, 2021",
-      link: "https://mohit-jamle.vercel.app/",
-      description:
-        "You have already seen My portfolio site so I don't think I have to say somethig about my Portfolio site.",
-    },
   ];
 
   return (

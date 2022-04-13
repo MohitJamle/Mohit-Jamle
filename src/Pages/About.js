@@ -12,13 +12,12 @@ const About = () => {
         <div className="about_cv">
           <h1>Hello, I am Mohit Jamle</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl
-            dolor, id dapibus leo elementum posuere. Ut aliquam metus quis
-            laoreet elementum. In hac habitasse platea dictumst. In hac
-            habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat
-            velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis
-            consectetur quam.
+            I am from indore (M.P), INDIA. currently I am doing my graduction
+            from Devi Ahilya Vishwavidyalaya (DAVV) Indore. I have good
+            expireance in web-development scince I am working on frontend from
+            last 1 year and I also working on ReactJS from last 9 mounths. My
+            datastructure and algorithms are also great + I am freelancer. I
+            worked with expireance web-developers in my freelencing projects.
           </p>
 
           <div className="about_intro">
@@ -30,10 +29,7 @@ const About = () => {
               <strong className="strong">Age</strong>
               <span>: 19</span>
             </div>
-            <div className="about_coloum">
-              <strong className="strong">Address </strong>
-              <span>: Nihalpur mundi ,Bijalpur (Indore,(M.P))</span>
-            </div>
+
             <div className="about_coloum">
               <strong className="strong">Phone Number </strong>
               <span>: +91 7987577125</span>

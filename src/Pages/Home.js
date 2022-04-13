@@ -11,9 +11,8 @@ const Home = () => {
         <h2>Welcome!</h2>
         <h1> I Am Mohit Jamle </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
-          dolore error ducimus illum officia quas dolorem deleniti est suscipit.
-          Aspernatur, excepturi?
+          I am from indore (M.P), INDIA. currently I am doing my graduction from
+          Devi Ahilya Vishwavidyalaya (DAVV) Indore.
         </p>
 
         <div className="home_buttons">

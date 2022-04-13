@@ -96,7 +96,7 @@ const Nav = ({ show, click }) => {
 
   return (
     <nav className="nav" style={{ display: show ? "inline" : "none" }}>
-      <h3>MOHIT</h3>
+      <h3 onClick={Home}>MOHIT</h3>
       <ul>
         <li onClick={Home}>Home</li>
         <li onClick={About}>About</li>
